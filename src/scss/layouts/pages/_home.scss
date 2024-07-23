@@ -1,17 +1,36 @@
-.banner-section{
-   .carousel-item{
-    height: 70vh;
-    img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
+.banner-section {
+    .carousel-item {
+        height: 70vh;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .carousel-caption {
+            left: initial !important;
+            text-align: end !important;
+            bottom: initial !important;
+            top: 50% !important;
+            transform: translateY(-50%);
+        }
     }
-    .carousel-caption{
-        left: initial !important;
-        text-align: end !important;
-        bottom: initial !important;
-        top: 50% !important;
-        transform: translateY(-50%);
+}
+
+.section-heading {
+    width: fit-content;
+}
+
+.featurepackage-list {
+    li {
+        display: block;
+        margin-bottom: 5px;
+
+        a {
+            i {
+                color: $secondary-color;
+            }
+        }
     }
-   }
 }
