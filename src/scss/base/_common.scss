@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul{
+    padding-left: 0px !important;
+    margin-bottom: 0px !important;
+    list-style: none;
+    li{
+        display: inline;
+    }
+}
