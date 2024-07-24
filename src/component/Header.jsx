@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../assets/plannepal.gif"
-
+import { Link } from "react-router-dom";
 function Header() {
     return (
         <header >
@@ -8,9 +8,9 @@ function Header() {
                 <div className="container text-light">
                     <div className="row gy-4 align-items-center">
                         <div className="col-lg-2">
-                            <a href=""  className='logo'>
-                                <img src={logo} alt="" />
-                            </a>
+                        <Link to="/" className='logo'>
+                        <img src={logo} alt="" /> 
+                        </Link>
                         </div>
                         <div className="col-lg-3">
                             <marquee>Agency for Tour & Trekking in Nepal
@@ -34,15 +34,15 @@ function Header() {
             <nav>
                 <div className="container">
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About Us</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li> <Link to="/about">About Us</Link></li>
                         <li><a href="">Nepal</a></li>
                         <li><a href="">Tibet</a></li>
                         <li><a href="">Bhutan</a></li>
                         <li><a href="">Multi Country</a></li>
                         <li><a href="">Heli Tour</a></li>
                         <li><a href="">Day Tours</a></li>
-                        <li><a href="">Contact Us</a></li>
+                        <li><Link to="/contact">Contact Us</Link></li>
                     </ul>
                 </div>
             </nav>
