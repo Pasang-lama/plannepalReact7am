@@ -8,9 +8,9 @@ function Header() {
                 <div className="container text-light">
                     <div className="row gy-4 align-items-center">
                         <div className="col-lg-2">
-                        <Link to="/" className='logo'>
-                        <img src={logo} alt="" /> 
-                        </Link>
+                            <Link to="/" className='logo'>
+                                <img src={logo} alt="" />
+                            </Link>
                         </div>
                         <div className="col-lg-3">
                             <marquee>Agency for Tour & Trekking in Nepal

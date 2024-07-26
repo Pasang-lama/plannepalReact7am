@@ -2,6 +2,7 @@ import BannerData from "./component/BannerItems";
 import Featurepackage from "./component/Featurepackage";
 import Footer from "./component/Footer";
 import Header from "./component/Header";
+import SpecialitiesSection from "./component/Specialities";
 
 function App() {
   return (
@@ -37,7 +38,7 @@ function App() {
           </div>
         </div>
       </section>
-
+      <SpecialitiesSection />
       <Footer />
     </>
   );

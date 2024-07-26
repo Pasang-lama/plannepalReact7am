@@ -34,3 +34,41 @@
         }
     }
 }
+
+.our-specialities-card {
+    position: relative;
+    overflow: hidden;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: all 0.5s ease;
+    }
+
+    .card-details {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        background-color: $primary-color;
+        padding: 10px;
+
+        color: white;
+
+        h3 {
+            font-size: 18px !important;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
+
+    &:hover {
+        img {
+            scale: 1.3;
+        }
+
+        .card-details {
+            background-color: $secondary-color;
+        }
+    }
+}
